@@ -6,7 +6,8 @@
   "keywords": [
     "manifest",
     "nfe",
-    "sefaz"
+    "sefaz",
+    "node"
   ],
   "repository": {
     "type": "git",
