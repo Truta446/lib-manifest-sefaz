@@ -1,0 +1,79 @@
+# lib-manifest-sefaz
+
+> Simple way to communicate with SEFAZ REST web services
+
+## Install
+
+```shell
+$ npm install lib-manifest-sefaz
+```
+
+## Usage
+
+```js
+const manifestSefaz = require('lib-manifest-sefaz')
+
+const cnpj = '00.000.000/0000-00'
+const nsu = '000000000002774'
+const chNFe = '33200304214716000142950016001908041118869319'
+const cert = 'Bag Attributes localKeyID: 01 00 00 00 friendlyName:'
+const key = 'Bag Attributes localKeyID: 01 00 00 00 friendlyName: PRIVATE'
+const passphrase = 'passphrase'
+
+const response = await manifestSefaz.manifestXml(cnpj, nsu, chNFe, cert, key, passphrase)
+```
+
+## API
+
+### manifestXml(cnpj, nsu, chNFe, cert, key, passphrase)
+
+#### cnpj
+
+Type: `string`
+Length: 18
+
+CNPJ of supplier company
+
+#### NSU
+
+Type: `string`
+Length: 15
+
+Order number about NF on SEFAZ
+
+#### chNFe
+
+Type: `string`
+Length: 44
+
+Key of NF
+
+#### cert
+
+Type: `string`
+
+Certificate of supplier generate by SEFAZ
+
+#### key
+
+Type: `string`
+
+Private certificate of supplier generate by SEFAZ
+
+#### passphrase
+
+Type: `string`
+
+Passphrase of certificates
+
+## Libraries used in this project:
+
+ - [xml-js](https://github.com/nashwaan/xml-js)
+ - [xml-crypto](https://github.com/yaronn/xml-crypto)
+ - [axios](https://github.com/axios/axios)
+ - [https](https://registry.npmjs.org/https/-/https-1.0.0.tgz)
+ - [moment](https://github.com/moment/moment/)
+
+## License
+
+Martini is distributed by The [MIT License](./LICENSE), see LICENSE

@@ -1,0 +1,20 @@
+{
+  "name": "lib-manifest-sefaz",
+  "version": "1.0.2",
+  "description": "Create a lib to manifest NFs",
+  "main": "index.js",
+  "keywords": [
+    "manifest",
+    "nfe",
+    "sefaz"
+  ],
+  "author": "juanvlopes",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "https": "^1.0.0",
+    "moment": "^2.24.0",
+    "xml-crypto": "^1.4.0",
+    "xml-js": "^1.6.11"
+  }
+}
