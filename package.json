@@ -1,6 +1,6 @@
 {
   "name": "lib-manifest-sefaz",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Create a lib to manifest NFs",
   "main": "index.js",
   "keywords": [
@@ -8,6 +8,10 @@
     "nfe",
     "sefaz"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Truta446/lib-manifest-sefaz"
+  },
   "author": "juanvlopes",
   "license": "MIT",
   "dependencies": {
