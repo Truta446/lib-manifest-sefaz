@@ -1,4 +1,4 @@
-# lib-manifest-sefaz
+# manifest-sefaz
 
 > Simple way to communicate with SEFAZ SOAP web services
 

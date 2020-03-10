@@ -1,10 +1,12 @@
+'use strict'
+
 const xmlJs = require('xml-js')
 const xmlCrypto = require('xml-crypto') 
 const axios = require('axios')
 const https = require('https') 
 const moment = require('moment')
 
-class InvoiceToManifest {
+class ManifestSefaz {
   manifestXml = async (cnpj, nsu, chNFe, cert, key, passphrase) => {
     try {
       const xml = this._mountXml(chNFe, nsu, cnpj)

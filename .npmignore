@@ -1,0 +1,7 @@
+.DS_Store
+/node_modules
+/npm-debug.log
+/.lintcache
+*-lock.json
+CODE_OF_CONDUCT.md
+PULL_REQUEST_TEMPLATE.md
