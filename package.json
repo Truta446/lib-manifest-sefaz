@@ -1,6 +1,6 @@
 {
   "name": "manifest-sefaz",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Create a lib to manifest NFs",
   "main": "index.js",
   "keywords": [
@@ -20,16 +20,22 @@
     "url": "https://github.com/Truta446"
   },
   "scripts": {
-      "build": "webpack"
+    "build": "webpack"
   },
   "license": "MIT",
   "dependencies": {
     "axios": "^0.19.2",
     "https": "^1.0.0",
     "moment": "^2.24.0",
-    "webpack": "^4.29.6",
-    "webpack-cli": "^3.2.3",
     "xml-crypto": "^1.4.0",
     "xml-js": "^1.6.11"
+  },
+  "devDependencies": {
+    "babel-loader": "^8.0.6",
+    "@babel/core": "^7.3.4",
+    "@babel/plugin-proposal-class-properties": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
   }
 }

@@ -8,6 +8,8 @@
 $ npm install manifest-sefaz
 ```
 
+[![build status](http://img.shields.io/travis/mafintosh/duplexify.svg?style=flat)](https://travis-ci.org/Truta446/lib-manifest-sefaz)
+
 ## Usage
 
 ```js
