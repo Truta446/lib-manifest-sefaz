@@ -8,6 +8,7 @@
 $ npm install manifest-sefaz
 ```
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/e6e0d59bda3a4d2f8a5f89514953dd08)](https://app.codacy.com/manual/Truta446/lib-manifest-sefaz?utm_source=github.com&utm_medium=referral&utm_content=Truta446/lib-manifest-sefaz&utm_campaign=Badge_Grade_Dashboard)
 [![build status](https://travis-ci.org/Truta446/lib-manifest-sefaz.svg?branch=master)](https://travis-ci.org/Truta446/lib-manifest-sefaz)
 
 ## Usage
