@@ -238,4 +238,4 @@ function _MyKeyInfo(cert) {
   }
 }
 
-module.exports = InvoiceToManifest
+module.exports = ManifestSefaz
