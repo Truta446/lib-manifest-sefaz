@@ -1,11 +1,11 @@
 # lib-manifest-sefaz
 
-> Simple way to communicate with SEFAZ REST web services
+> Simple way to communicate with SEFAZ SOAP web services
 
 ## Install
 
 ```shell
-$ npm install lib-manifest-sefaz
+$ npm install manifest-sefaz
 ```
 
 ## Usage
@@ -20,7 +20,14 @@ const cert = 'Bag Attributes localKeyID: 01 00 00 00 friendlyName:'
 const key = 'Bag Attributes localKeyID: 01 00 00 00 friendlyName: PRIVATE'
 const passphrase = 'passphrase'
 
-const response = await manifestSefaz.manifestXml(cnpj, nsu, chNFe, cert, key, passphrase)
+// Example
+const nameOfFunction = async () => {
+  try {
+    await manifestSefaz.manifestXml(cnpj, nsu, chNFe, cert, key, passphrase)
+  } catch(err) {
+    console.error(err)
+  }
+}
 ```
 
 ## API
