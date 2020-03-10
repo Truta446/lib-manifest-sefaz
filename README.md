@@ -74,6 +74,12 @@ Passphrase of certificates
  - [https](https://registry.npmjs.org/https/-/https-1.0.0.tgz)
  - [moment](https://github.com/moment/moment/)
 
+## Command to extract certificate and private key:
+
+```shell
+$ openssl pkcs12 -in name_of_file.pfx -clcerts -nokeys -out cert.pem && openssl pkcs12 -in name_of_file.pfx -nocerts -out key.pem -nodes
+```
+
 ## License
 
 Martini is distributed by The [MIT License](./LICENSE), see LICENSE

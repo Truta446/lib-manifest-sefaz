@@ -1,6 +1,6 @@
 {
   "name": "lib-manifest-sefaz",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Create a lib to manifest NFs",
   "main": "index.js",
   "keywords": [
@@ -13,7 +13,11 @@
     "type": "git",
     "url": "https://github.com/Truta446/lib-manifest-sefaz"
   },
-  "author": "juanvlopes",
+  "author": {
+    "name": "Juan Versolato Lopes",
+    "email": "juan.versolato@outlook.com",
+    "url": "https://github.com/Truta446"
+  },
   "license": "MIT",
   "dependencies": {
     "axios": "^0.19.2",
